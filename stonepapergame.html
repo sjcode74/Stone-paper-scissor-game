@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stone Paper Scissors Game</title>
+  <link rel="stylesheet" href="stonepapergame.css">
+</head>
+<body>
+
+  <div class="game">
+    
+    <h1 class="game-title">Stone Paper Scissors Game</h1>
+
+    <div class="score-board">
+      <div class="score">
+        <p>You</p>
+        <h3 id="userScore">0</h3>
+      </div>
+      <div class="score">
+        <p>Computer</p>
+        <h3 id="computerScore">0</h3>
+      </div>
+    </div>
+
+    <div class="choices">
+      <button onclick="playGame('stone')">✊</button>
+      <button onclick="playGame('paper')">✋</button>
+      <button onclick="playGame('scissors')">✌</button>
+    </div>
+
+    <p id="message">Choose your move!</p>
+
+    <button class="reset" onclick="resetGame()">Reset Score</button>
+  </div>
+
+  <script src="scorepapergame.js"></script>
+</body>
+</html>

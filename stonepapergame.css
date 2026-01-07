@@ -1,0 +1,75 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.game {
+  background: #fff;
+  padding: 30px;
+  width: 360px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.game-title {
+  font-size: 26px;
+  margin-bottom: 25px;
+  color: #243b55;
+  text-align: center; 
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.score-board {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.score {
+  background: #f2f2f2;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.score h3 {
+  font-size: 26px;
+  color: #243b55;
+}
+
+.choices button {
+  font-size: 30px;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #243b55;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.choices button:hover {
+  background: #141e30;
+  transform: scale(1.1);
+}
+
+#message {
+  margin: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.reset {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #e74c3c;
+  color: white;
+  cursor: pointer;
+}
